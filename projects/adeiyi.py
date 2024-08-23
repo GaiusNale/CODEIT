@@ -2,7 +2,7 @@
 import requests
 import sys
 
-city_name = "Abuja"
+city_name = "New York"
 def get_weather(api_key):
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     complete_url = f"{base_url}q={city_name}&appid={api_key}&units=metric"
